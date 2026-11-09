@@ -6,4 +6,4 @@ Static site in `dist/`. No checkout, orders, prices, signup collection, or track
 
 Preview: `python3 -m http.server 4173 --directory dist` and open http://localhost:4173.
 
-Cloudflare Pages settings, when approved: no build command; output directory `dist`. Intended GitHub organization: Decent-Software-LLC. Neither repository nor deployment has been published as part of the local review.
+Hosting: GitHub Pages, deployed from `dist/` by `.github/workflows/pages.yml` on pushes to `main`. Cloudflare manages DNS for `decentsoftwear.com`. Repository: https://github.com/Decent-Software-LLC/decentsoftwear.com.
