@@ -8,3 +8,5 @@
 
 .collection{background:#dfcfb3;max-width:none;padding-left:max(5%,calc((100vw - 1512px)/2));padding-right:max(5%,calc((100vw - 1512px)/2))}.collection .section-top,.collection .concept-note{border-color:#b9ad96}.hero h1{font-size:clamp(40px,5vw,80px);letter-spacing:-2.6px}@media(max-width:640px){.collection{padding-left:6%;padding-right:6%}.hero h1{font-size:clamp(26px,7.5vw,43px);letter-spacing:-.9px}}
 .coming-stamp{background:#dfcfb3}.coming-stamp svg{width:34px;height:42px}@media(max-width:640px){.coming-stamp svg{width:26px;height:32px}.coming-stamp{gap:3px}}
+
+.social-links{display:flex;align-items:center;gap:6px}.social-links a{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;transition:background .2s,color .2s}.social-links svg{display:block;width:19px;height:19px}.social-links a:hover{background:#243e3910;color:#507f76}@media(max-width:640px){footer{gap:12px}.social-links{margin-left:auto}footer>small{width:100%}}
